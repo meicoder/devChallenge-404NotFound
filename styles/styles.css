@@ -1,0 +1,46 @@
+:root {
+    /* Colors */
+    --black: #333333;
+    --white: #ffffff;
+    --gray-1: #4f4f4f;
+    --gray-2: #bdbdbd;
+
+    /* Fonts */
+    --font-header: 'Inconsolata', monospace;
+    --font-content: 'Space Mono', monospace;
+    --font-footer: 'Montserrat', sans-serif;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+header {
+    margin: 2rem 2.4rem;
+    font-family: var(--font-header);
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: -0.08em;
+}
+
+main {
+    margin-top: 6.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    height: 40vh;
+    width: 80vw;
+    background: url('../assets/img/Scarecrow.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

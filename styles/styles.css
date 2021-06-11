@@ -22,7 +22,7 @@ html {
 }
 
 header {
-    margin: 2rem 2.4rem;
+    margin: 4.6% 5.6%;
     font-family: var(--font-header);
     font-size: 2.4rem;
     font-weight: 700;
@@ -30,17 +30,68 @@ header {
 }
 
 main {
-    margin-top: 6.4rem;
+    margin-top: 5.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .image {
-    height: 40vh;
-    width: 80vw;
+    height: 30vh;
+    width: 77vw;
     background: url('../assets/img/Scarecrow.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+}
+
+.content {
+    margin-left: 6.4%;
+    font-family: var(--font-content);
+}
+
+.content p:first-child {
+    margin: 0;
+    font-size: 4.8rem;
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    line-height: 7.1rem;
+}
+
+.content p:nth-child(2) {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: -0.035em;
+    line-height: 2.7rem;
+    color: var(--gray-1);
+}
+
+button {
+    width: 21.6rem;
+    height: 6.8rem;
+    background-color: var(--black);
+    color: var(--white);
+    font-family: var(--font-content);
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    align-self: flex-start;
+}
+
+footer {
+    position: absolute;
+    font-family: var(--font-footer);
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: var(--gray-2);
+    text-align: center;
+    bottom: 2.4rem;
+    width: 100vw;
+}
+
+footer span {
+    font-weight: 700;
 }

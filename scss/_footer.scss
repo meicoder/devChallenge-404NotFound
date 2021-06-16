@@ -1,0 +1,13 @@
+footer {
+    padding-bottom: 2.4rem;
+    font-family: $font-footer;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: $gray-light;
+    text-align: center;
+
+    span {
+        font-weight: bold;
+    }
+}

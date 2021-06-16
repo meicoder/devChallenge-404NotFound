@@ -1,0 +1,40 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0 2.4rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: $font-content;
+    overflow-x: hidden;
+
+    @include breakpoint-up(medium) {
+        min-height: 100vh;
+        margin: 0 7.7rem;
+        justify-content: space-between;
+    }
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}

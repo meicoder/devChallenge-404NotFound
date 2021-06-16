@@ -1,0 +1,168 @@
+/* Colors */
+/* Fonts */
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0 2.4rem;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Space Mono", monospace;
+  overflow-x: hidden;
+}
+
+@media (min-width: 40em) {
+  body {
+    min-height: 100vh;
+    margin: 0 7.7rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 2rem 0;
+}
+
+header > h1 {
+  font-family: "Inconsolata", monospace;
+  font-size: 2.4rem;
+  font-weight: bold;
+  letter-spacing: -0.08em;
+  line-height: 2.5rem;
+}
+
+@media (min-width: 40em) {
+  header {
+    padding: 4rem 0;
+  }
+}
+
+@media (min-width: 40em) {
+  .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 16rem;
+  }
+}
+
+.content__image {
+  margin: 4.4rem 2rem;
+  height: 24rem;
+  background: url("../assets/img/Scarecrow.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+@media (min-width: 40em) {
+  .content__image {
+    margin: 0;
+    width: 54rem;
+    height: 45rem;
+    background-size: contain;
+  }
+}
+
+@media (min-width: 40em) {
+  .content__text {
+    width: 58.6rem;
+    margin-right: 4.2rem;
+  }
+}
+
+.content__title {
+  margin-top: 1.6rem;
+  font-size: 4.8rem;
+  font-weight: 700;
+  letter-spacing: -0.045em;
+  line-height: 7.1rem;
+}
+
+@media (min-width: 40em) {
+  .content__title {
+    margin: 0;
+    font-size: 6.4rem;
+    line-height: 9.5rem;
+  }
+}
+
+.content__description {
+  margin-top: 3rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: -0.035em;
+  line-height: 2.7rem;
+  color: #4f4f4f;
+}
+
+@media (min-width: 40em) {
+  .content__description {
+    font-size: 2.4rem;
+    width: 38.1rem;
+    line-height: 3.6rem;
+  }
+}
+
+.content__button {
+  width: 21.6rem;
+  height: 6.8rem;
+  margin: 6.6rem 0;
+  background-color: #333333;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: #ffffff;
+}
+
+footer {
+  padding-bottom: 2.4rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #bdbdbd;
+  text-align: center;
+}
+
+footer span {
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
